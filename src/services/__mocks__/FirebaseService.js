@@ -1,7 +1,8 @@
-const data = {
-  name: "unnamed",
-  songs: ["song1"]
+export const data = {
+  name: 'unnamed',
+  songs: [ 'song' ]
 };
+
 const snapshot = { val: () => data };
 const database = jest.fn();
 database.mockReturnValue({
